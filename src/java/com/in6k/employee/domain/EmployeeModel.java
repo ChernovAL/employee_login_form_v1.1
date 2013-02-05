@@ -7,6 +7,7 @@ import com.in6k.employee.persistense.ProviderFactory;
 import java.io.IOException;
 
 public class EmployeeModel implements Identifier {
+    private int id;
     private String name;
     private String surname;
     private String birthday;
@@ -53,6 +54,14 @@ public class EmployeeModel implements Identifier {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public ProviderFactory.ProviderType getProviderType() {

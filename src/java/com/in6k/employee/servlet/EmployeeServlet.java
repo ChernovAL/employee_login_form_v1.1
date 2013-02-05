@@ -35,7 +35,7 @@ public class EmployeeServlet extends HttpServlet {
             return;
         }
 
-        EmployeeModel employeeModel = new EmployeeModel(employeeForm, ProviderFactory.ProviderType.XML);
+        EmployeeModel employeeModel = new EmployeeModel(employeeForm, ProviderFactory.ProviderType.DB);
         employeeModel.save();
 
         response.sendRedirect("/employeeList");

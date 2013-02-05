@@ -20,7 +20,7 @@ public class EmployeesListServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        File[] listFiles = new File("/home/alexandr/test/").listFiles();
+        File[] listFiles = new File("/home/employee/test/").listFiles();
         List employees;
 
         employees = getList();
@@ -30,7 +30,7 @@ public class EmployeesListServlet extends HttpServlet {
     }
 
     private List getList() throws FileNotFoundException {
-        File dir = new File("/home/alexandr/test");
+        File dir = new File("/home/employee/test");
         File[] files = dir.listFiles(new FilenameFilter() {
             public boolean accept(File dir, String name) {
                 return name.toLowerCase().endsWith(".xml");

@@ -26,7 +26,7 @@ public class EditLoginFormServlet extends HttpServlet {
     }
 
     private EmployeeModel getEmployeeObjectFromXmlFile(String employeeName) throws FileNotFoundException {
-        File employeeFile = new File("/home/alexandr/test/" + employeeName + ".xml");
+        File employeeFile = new File("/home/employee/test/" + employeeName + ".xml");
         FileInputStream fileInputStream = new FileInputStream(employeeFile);
         XMLDecoder xmlDecoder = new XMLDecoder(fileInputStream);
         EmployeeModel employee = (EmployeeModel) xmlDecoder.readObject();

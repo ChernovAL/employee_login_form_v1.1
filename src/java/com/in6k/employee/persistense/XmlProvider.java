@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class XmlProvider implements DataProvider{
 
-    protected String path = "/home/alexandr/test";
+    protected String path = "/home/employee/test";
 
     public XmlProvider(String path) {
         this.path = path;
