@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>listServlet</servlet-name>
+        <servlet-class>com.in6k.employee.servlet.EmployeesListServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>editLoginFormServlet</servlet-name>
+        <servlet-class>com.in6k.employee.servlet.EditLoginFormServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>employeeServlet</servlet-name>
+        <servlet-class>com.in6k.employee.servlet.EmployeeServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>listServlet</servlet-name>
+        <url-pattern>/employeeList</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>editLoginFormServlet</servlet-name>
+        <url-pattern>/editForm</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>employeeServlet</servlet-name>
+        <url-pattern>/employeeServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
