@@ -3,6 +3,7 @@ package com.in6k.employee.servlet;
 import com.in6k.employee.Employee;
 import com.in6k.employee.domain.EmployeeModel;
 import com.in6k.employee.form.EmployeeForm;
+import com.in6k.employee.persistense.DbProvider;
 import com.in6k.employee.persistense.ProviderFactory;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -12,6 +13,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.List;
 
 public class EmployeeServlet extends HttpServlet {
@@ -55,5 +57,28 @@ public class EmployeeServlet extends HttpServlet {
         }
 
         response.sendRedirect("/employeeList");
+    }
+
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        logger.info("Parameter id = " + request.getParameter("id"));
+
+        EmployeeModel employeeModel = new EmployeeModel();
+
+        DbProvider dbProvider = new DbProvider();
+
+        employeeModel.setId(Integer.parseInt(request.getParameter("id")));
+        employeeModel.setName(request.getParameter("name"));
+        employeeModel.setSurname(request.getParameter("surname"));
+        employeeModel.setBirthday(request.getParameter("birthday"));
+        employeeModel.setEmail(request.getParameter("email"));
+        employeeModel.setPassword(request.getParameter("password"));
+        employeeModel.setName(request.getParameter("name"));
+
+        try {
+            dbProvider.update(employeeModel);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 }

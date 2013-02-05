@@ -69,7 +69,7 @@
                  <td><c:out value="${employee.birthday}"></c:out></td>
                  <td><c:out value="${employee.email}"></c:out></td>
                  <td><c:out value="${employee.password}"></c:out></td>
-                 <td><a href="/editForm?id=<c:out value="${employee.id}"></c:out>">Edit.</a></td>
+                 <td><a href="/employeeServlet?id=<c:out value="${employee.id}"></c:out>">Edit.</a></td>
              </tr>
          </c:forEach>
          </tbody>

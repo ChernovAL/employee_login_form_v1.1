@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/in6k/employee/persistense/DbProvider.java" afterPath="$PROJECT_DIR$/src/java/com/in6k/employee/persistense/DbProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeesListServlet.java" afterPath="$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeesListServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeeServlet.java" afterPath="$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeeServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/employeesList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/employeesList.jsp" />
     </list>
     <ignored path="employees 1.1..iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.jsp" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360003428986" ignored="false" />
     <file path="/loginForm.jsp" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360071959869" ignored="false" />
-    <file path="/employeesList.jsp" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360074133701" ignored="false" />
+    <file path="/employeesList.jsp" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360076918896" ignored="false" />
     <file path="/Employee.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360016992486" ignored="false" />
     <file path="/LoginForm.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1359999016817" ignored="false" />
     <file path="/LoginFormServlet.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1359999875225" ignored="false" />
     <file path="/EmployeesListServlet.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360073708190" ignored="false" />
-    <file path="/EmployeeServlet.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360071830916" ignored="false" />
+    <file path="/EmployeeServlet.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360077667784" ignored="false" />
     <file path="/web.xml" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360003170317" ignored="false" />
     <file path="/EditLoginFormServlet.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360021926561" ignored="false" />
     <file path="/Identifier.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360007487836" ignored="false" />
@@ -28,7 +27,7 @@
     <file path="/EmployeeModel.hbm.xml" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360049062329" ignored="false" />
     <file path="$PROJECT_DIR$/../HibernateDemo/.idea/workspace.xml" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360064710733" ignored="false" />
     <file path="/Employee.hbm.xml" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360064458947" ignored="false" />
-    <file path="/fragment.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360057707438" ignored="false" />
+    <file path="/fragment.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360076888418" ignored="false" />
     <file path="/EmployeeDao.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360057727393" ignored="false" />
     <file path="/HibernateUtil.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360059049515" ignored="false" />
     <file path="$PROJECT_DIR$/../HibernateDemo/src/main/resources/Employee.hbm.xml" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360064960392" ignored="false" />
@@ -95,19 +94,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="loginForm.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/loginForm.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="76" selection-start="1522" selection-end="1522" vertical-scroll-proportion="-13.708333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeesListServlet.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="EmployeesListServlet.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeesListServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="27" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0">
+            <state line="32" column="27" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.52104497">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1594#1759#0" expanded="true" />
@@ -117,10 +107,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="employeesList.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/employeesList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="46" selection-start="2266" selection-end="2266" vertical-scroll-proportion="-18.958334">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="EditLoginFormServlet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EditLoginFormServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="50" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
+            <state line="18" column="61" selection-start="585" selection-end="642" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -137,10 +136,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeServlet.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EmployeeServlet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeeServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="50" selection-start="2454" selection-end="2454" vertical-scroll-proportion="0.94392526">
+            <state line="77" column="81" selection-start="3328" selection-end="3328" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,11 +176,11 @@
         <option value="$PROJECT_DIR$/src/java/com/in6k/employee/dao/EmployeeDao.java" />
         <option value="$PROJECT_DIR$/src/java/com/in6k/employee/hibernate/HibernateUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeeServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/loginForm.jsp" />
         <option value="$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeesListServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/employeesList.jsp" />
         <option value="$PROJECT_DIR$/src/java/com/in6k/employee/persistense/DbProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/employeesList.jsp" />
+        <option value="$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeeServlet.java" />
       </list>
     </option>
   </component>
@@ -390,6 +389,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="employees 1.1." />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="employee_login_form_v1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="employee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistense" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -657,8 +682,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24153355" sideWeight="0.6415094" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35849056" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24153355" sideWeight="0.79800224" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20199779" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -783,34 +808,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/employeesList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="74" selection-start="2390" selection-end="2390" vertical-scroll-proportion="1.0572519">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/loginForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="76" selection-start="1522" selection-end="1522" vertical-scroll-proportion="-13.708333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeesListServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="27" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1594#1759#0" expanded="true" />
-            <element signature="e#1748#1749#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EditLoginFormServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="50" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
+        <state line="33" column="76" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.6278626">
           <folding />
         </state>
       </provider>
@@ -826,9 +826,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeeServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="50" selection-start="2454" selection-end="2454" vertical-scroll-proportion="0.94392526">
+        <state line="77" column="81" selection-start="3328" selection-end="3328" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EditLoginFormServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="61" selection-start="585" selection-end="642" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/employeesList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="46" selection-start="2266" selection-end="2266" vertical-scroll-proportion="-18.958334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeesListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="27" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.52104497">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1594#1759#0" expanded="true" />
+            <element signature="e#1748#1749#0" expanded="true" />
           </folding>
         </state>
       </provider>
