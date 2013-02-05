@@ -2,24 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeeServlet.java" afterPath="$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeeServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/in6k/employee/persistense/DbProvider.java" afterPath="$PROJECT_DIR$/src/java/com/in6k/employee/persistense/DbProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeesListServlet.java" afterPath="$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeesListServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/employeesList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/employeesList.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/loginForm.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/loginForm.jsp" />
     </list>
     <ignored path="employees 1.1..iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.jsp" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360003428986" ignored="false" />
     <file path="/loginForm.jsp" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360071959869" ignored="false" />
-    <file path="/employeesList.jsp" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360067959045" ignored="false" />
+    <file path="/employeesList.jsp" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360074133701" ignored="false" />
     <file path="/Employee.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360016992486" ignored="false" />
     <file path="/LoginForm.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1359999016817" ignored="false" />
     <file path="/LoginFormServlet.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1359999875225" ignored="false" />
-    <file path="/EmployeesListServlet.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360019379291" ignored="false" />
+    <file path="/EmployeesListServlet.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360073708190" ignored="false" />
     <file path="/EmployeeServlet.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360071830916" ignored="false" />
     <file path="/web.xml" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360003170317" ignored="false" />
     <file path="/EditLoginFormServlet.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360021926561" ignored="false" />
     <file path="/Identifier.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360007487836" ignored="false" />
-    <file path="/DbProvider.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360058295478" ignored="false" />
+    <file path="/DbProvider.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360076097918" ignored="false" />
     <file path="/XmlProvider.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360013928175" ignored="false" />
     <file path="/EmployeeModel.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360057279317" ignored="false" />
     <file path="/EmployeeForm.java" changelist="dcdec750-2de2-4fdb-acdb-f36f27d6cc7d" time="1360011388637" ignored="false" />
@@ -104,32 +104,45 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="EmployeesListServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeesListServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="27" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1594#1759#0" expanded="true" />
+                <element signature="e#1748#1749#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditLoginFormServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EditLoginFormServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="50" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DbProvider.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/persistense/DbProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="34" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XmlProvider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/persistense/XmlProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeesListServlet.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeesListServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="146" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.7810219">
+            <state line="40" column="23" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1155#1320#0" expanded="true" />
-                <element signature="e#1309#1310#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeServlet.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeeServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="50" selection-start="2454" selection-end="2454" vertical-scroll-proportion="0.94392526">
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,7 +167,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EditLoginFormServlet.java" />
-        <option value="$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeesListServlet.java" />
         <option value="$PROJECT_DIR$/src/java/com/in6k/employee/persistense/XmlProvider.java" />
         <option value="$PROJECT_DIR$/src/EmployeeModel.hbm.xml" />
         <option value="$PROJECT_DIR$/src/java/EmployeeModel.hbm.xml" />
@@ -163,12 +175,13 @@
         <option value="$PROJECT_DIR$/src/resources/entities/Employee.hbm.xml" />
         <option value="dbtable:/864b96cf/209521bc-900a-4304-bdc7-fdf596591591/employees..employees" />
         <option value="$PROJECT_DIR$/src/java/com/in6k/employee/dao/EmployeeDao.java" />
-        <option value="$PROJECT_DIR$/src/java/com/in6k/employee/persistense/DbProvider.java" />
         <option value="$PROJECT_DIR$/src/java/com/in6k/employee/hibernate/HibernateUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/employeesList.jsp" />
         <option value="$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeeServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/loginForm.jsp" />
+        <option value="$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeesListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/employeesList.jsp" />
+        <option value="$PROJECT_DIR$/src/java/com/in6k/employee/persistense/DbProvider.java" />
       </list>
     </option>
   </component>
@@ -192,7 +205,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
+    <option name="x" value="-1616" />
     <option name="y" value="-4" />
     <option name="width" value="1617" />
     <option name="height" value="1055" />
@@ -377,110 +390,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="employees 1.1." />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="employee_login_form_v1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="employee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="persistense" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="employees 1.1." />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="employee_login_form_v1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="employee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="employees 1.1." />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="employee_login_form_v1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="employee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="employees 1.1." />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="employee_login_form_v1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="employee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -726,7 +635,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1617" height="1055" extended-state="6" />
+    <frame x="-1616" y="-4" width="1617" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -867,26 +776,17 @@
         <state line="16" column="25" selection-start="681" selection-end="681" vertical-scroll-proportion="0.4379562" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/persistense/XmlProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="145" selection-end="145" vertical-scroll-proportion="0.10948905">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/employeesList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="72" selection-start="662" selection-end="662" vertical-scroll-proportion="0.30152673">
+        <state line="75" column="74" selection-start="2390" selection-end="2390" vertical-scroll-proportion="1.0572519">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EditLoginFormServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="87" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.629562">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="50" selection-start="2454" selection-end="2454" vertical-scroll-proportion="1.588785">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -897,27 +797,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/persistense/DbProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="34" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/persistense/XmlProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeesListServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="146" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.7810219">
+        <state line="32" column="27" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1155#1320#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
+            <element signature="e#1594#1759#0" expanded="true" />
+            <element signature="e#1748#1749#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EditLoginFormServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="50" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/persistense/DbProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="23" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/in6k/employee/servlet/EmployeeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="50" selection-start="2454" selection-end="2454" vertical-scroll-proportion="0.94392526">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

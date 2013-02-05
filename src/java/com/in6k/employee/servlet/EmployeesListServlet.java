@@ -1,17 +1,17 @@
 package com.in6k.employee.servlet;
 
-import com.in6k.employee.Employee;
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.beans.XMLDecoder;
 import java.io.*;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
 import com.in6k.employee.domain.EmployeeModel;
+import com.in6k.employee.persistense.DbProvider;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
@@ -21,11 +21,22 @@ public class EmployeesListServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         File[] listFiles = new File("/home/employee/test/").listFiles();
-        List employees;
+        List employeesFromXml = null;
+        List employeesFromDatabase = null;
 
-        employees = getList();
+        DbProvider dbProvider = new DbProvider();
 
-        request.setAttribute("employees", employees);
+
+        try {
+            employeesFromDatabase = dbProvider.getAll();
+        } catch (SQLException e) {
+            e.getMessage();
+        }
+        logger.info(employeesFromDatabase);
+        employeesFromXml = getList();
+
+        request.setAttribute("employeesFromXml", employeesFromXml);
+        request.setAttribute("employeesFromDatabase", employeesFromDatabase);
         request.getRequestDispatcher("employeesList.jsp").include(request, response);
     }
 
@@ -42,10 +53,10 @@ public class EmployeesListServlet extends HttpServlet {
         for (File file: files){
             FileInputStream os = new FileInputStream(file.getAbsolutePath());
             XMLDecoder decoder = new XMLDecoder(os);
-            EmployeeModel user = (EmployeeModel)decoder.readObject();
+            EmployeeModel employeeModel = (EmployeeModel)decoder.readObject();
             decoder.close();
 
-            usersList.add(user);
+            usersList.add(employeeModel);
         }
         return usersList;
     }

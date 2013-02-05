@@ -7,7 +7,6 @@
 
         table {
             width: 500px;
-            border: 2px solid #696969;
             margin: auto;
         }
         td {
@@ -21,6 +20,37 @@
      <h3>Employees list:</h3>
 
      <table>
+         <caption>From XML file.</caption>
+         <thead>
+             <tr>
+                 <th>Name</th>
+                 <th>Surname</th>
+                 <th>Birthday</th>
+                 <th>Email</th>
+                 <th>Password</th>
+                 <th>Edit</th>
+             </tr>
+         </thead>
+         <tbody>
+             <c:forEach var="employee" items="${employeesFromXml}">
+                 <tr>
+                     <td><c:out value="${employee.name}"></c:out></td>
+                     <td><c:out value="${employee.surname}"></c:out></td>
+                     <td><c:out value="${employee.birthday}"></c:out></td>
+                     <td><c:out value="${employee.email}"></c:out></td>
+                     <td><c:out value="${employee.password}"></c:out></td>
+                     <td><a href="/editForm?name=<c:out value="${employee.name}"></c:out>">Edit.</a></td>
+                 </tr>
+             </c:forEach>
+         </tbody>
+     </table>
+     </br>
+     </br>
+     </br>
+     </br>
+     </br>
+     <table>
+         <caption>From database.</caption>
          <thead>
          <tr>
              <th>Name</th>
@@ -32,16 +62,16 @@
          </tr>
          </thead>
          <tbody>
-             <c:forEach var="employee" items="${employees}">
-                 <tr>
-                     <td><c:out value="${employee.name}"></c:out></td>
-                     <td><c:out value="${employee.surname}"></c:out></td>
-                     <td><c:out value="${employee.birthday}"></c:out></td>
-                     <td><c:out value="${employee.email}"></c:out></td>
-                     <td><c:out value="${employee.password}"></c:out></td>
-                     <td><a href="/editForm?name=<c:out value="${employee.name}"></c:out>">Edit.</a></td>
-                 </tr>
-             </c:forEach>
+         <c:forEach var="employee" items="${employeesFromDatabase}">
+             <tr>
+                 <td><c:out value="${employee.name}"></c:out></td>
+                 <td><c:out value="${employee.surname}"></c:out></td>
+                 <td><c:out value="${employee.birthday}"></c:out></td>
+                 <td><c:out value="${employee.email}"></c:out></td>
+                 <td><c:out value="${employee.password}"></c:out></td>
+                 <td><a href="/editForm?id=<c:out value="${employee.id}"></c:out>">Edit.</a></td>
+             </tr>
+         </c:forEach>
          </tbody>
      </table>
 
